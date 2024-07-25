@@ -216,7 +216,6 @@ header .main_menu .item .item_contents .contents_menu > ul > li ul li {
 
 .visual .inner {
     height: 650px;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items : center;
@@ -224,4 +223,87 @@ header .main_menu .item .item_contents .contents_menu > ul > li ul li {
 
 .visual .title {
     margin-right: 30px;
+}
+
+/* Notice */
+
+.notice {
+
+}
+
+.notice .notice_line {
+    position: relative;
+}
+
+.notice .notice_line .inner {
+    height: 64px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.notice .notice_line .bg_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #111;
+}
+
+.notice .notice_line .bg_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color:#f6f5ef
+}
+
+.notice .notice_line .inner_left {
+    width: 60%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+
+.notice .notice_line .inner_left h2 {
+    color : #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.notice .notice_line .inner_left .swiper-container {
+    height: 62px;
+    flex-grow: 1;
+    overflow-y: hidden;
+}
+
+.notice .notice_line .inner_left .swiper-container .swiper-slide {
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.notice .notice_line .inner_left .swiper-container .swiper-slide a {
+    color: #ffffff;
+}
+
+.notice .notice_line .inner_left .notice_left_more {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notice .notice_line .inner_left .more {
+    color : #ffffff;
+    font-size: 40px;
+}
+
+.notice .notice_line .inner_right {
+    width: 40%;
+    height: 100%;
 }
